@@ -514,9 +514,6 @@ const Home = () => {
           <Box as="section" id="projects" py={4} px={{ base: 4, md: 0 }}>
             <Flex align="center" justify="space-between" mb={10}>
               <Box>
-                <Text fontSize="xs" fontFamily="mono" color="cyan.400" textTransform="uppercase" letterSpacing="widest" mb={1}>
-                  Featured Work
-                </Text>
                 <Heading size="xl" textTransform="uppercase" letterSpacing="widest" color="white">
                   SELECTED PROJECTS
                 </Heading>

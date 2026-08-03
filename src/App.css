@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.neonNavbar {
+  border-radius: 1.5rem;
+  border: 2px solid transparent;
+  background-image:
+    linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.03)),
+    linear-gradient(90deg, #22d3ee, #8b5cf6, #ec4899, #22d3ee);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-size: 100% 100%, 200% 200%;
+  animation: neon-border 4s linear infinite;
+  box-shadow: 0 0 30px rgba(34, 211, 238, 0.12);
+}
+
+@keyframes neon-border {
+  from {
+    background-position: 0% 50%, 0% 50%;
+  }
+  to {
+    background-position: 100% 50%, 200% 50%;
+  }
+}
