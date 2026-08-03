@@ -67,7 +67,6 @@ function App() {
   const navLinks = [
     { name: 'Education', href: '#education' },
     { name: 'Experience', href: '#experience' },
-    { name: 'Achievements', href: '#achievements' },
     { name: 'Projects', href: '#projects' },
     { name: 'TechStack', href: '#techstack' },
   ];
